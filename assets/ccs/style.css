@@ -104,6 +104,7 @@ main {
     -moz-box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     transition: transform 3s;
+    cursor: pointer;
     
 }
 
@@ -165,6 +166,7 @@ main {
     -moz-box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     transition: transform 3s;
+    cursor: pointer;
 }
 
 #banner2 img:hover { 
@@ -276,7 +278,7 @@ main {
 .text-es {
     color: crimson;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #pag4 {
@@ -356,6 +358,42 @@ main {
 
 
 }
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+
+    #text1 {
+        
+        
+        font-size: 1.1rem;
+        
+    
+    }
+
+
+
+    #text2 {
+        
+        
+        font-size: 1.1rem;
+        
+    
+    }
+
+
+    #banner1 img {
+
+        
+        height: 40%;
+        
+        
+    }
+
+ 
+
+}
+
+
+
 @media screen and (max-width: 800px) and (min-width: 300px){
 
     #menu{
@@ -380,7 +418,7 @@ main {
         background-color: none;
         vertical-align: center;
         align-items: center;
-        border-radius: 0px;
+        border-radius: 10px;
         justify-content: center;
         display: flex; 
         flex-direction: column;
@@ -404,6 +442,7 @@ main {
         box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
         background-size:initial;
         background-position:right;
+        cursor: pointer;
         
     }
 
@@ -414,14 +453,16 @@ main {
     
     
     #text1 {
+
+    
     
         
         text-align:center;
-        padding-top: 25%;
+        
         display: none;
-        padding: 10px;
+        padding: 5px;
         width: 100%;
-        font-size: 0.7rem;
+        font-size: 0.85rem;
         color: #ffffff;
     
     }
@@ -457,6 +498,7 @@ main {
         transition: background-color 0.8s;
         transition: height 1.2s;
         border-radius: 10px;
+        
 }
 
 
@@ -470,6 +512,8 @@ main {
     -moz-box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     box-shadow: 7px -12px 61px 2px rgb(28, 60, 56);
     transition: transform 3s;
+    cursor: pointer;
+    
 }
 
 #banner2 img:hover {
@@ -609,6 +653,7 @@ main {
     justify-content: space-around;
     padding-left: 1vw;
     padding-right: 1vw;
+    margin-bottom: 3vh;
 
 }
 
@@ -616,7 +661,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-items: stretch;
     align-items: center;
     justify-content: space-around;
     gap: 3vh;
@@ -646,11 +691,11 @@ main {
 }
 
 #imagen   {
+    
 
     display: none;
 
-    width: 50vw;
-    height: auto;
+   
 }
 
 }

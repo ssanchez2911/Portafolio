@@ -11,12 +11,7 @@ $(document).ready(function () {
             $("#text1").fadeIn( 2000 );
             $("#text1").css("width", "60%");
            
-            
-
-            
-          
-            
-            
+        
         
         }, function() {
             $("#text1").hide();
@@ -166,96 +161,99 @@ $(document).ready(function () {
 
     else {
 
-        
-    $( "#banner1" ).hover(
-        function() {
-            $("#text1").fadeIn( 2000 );
             
-        
-        }, function() {
-            $("#text1").hide();
-
-        }
-      );
-
-
-    $( "#banner2" ).hover(
-        function() {
-            $("#text2").fadeIn( 2000 );
+        $( "#banner1" ).hover(
+            function() {
+                $("#text1").fadeIn( 2000 );
+                $("#text1").css("width", "100%");
+                $("#text1").css("font-size", "0.6rem");
+                
             
+            }, function() {
+                $("#text1").hide();
+
+            }
+        );
+
+
+        $( "#banner2" ).hover(
+            function() {
+                $("#text2").fadeIn( 2000 );
+                $("#text2").css("font-size", "0.6rem");
+                
+            
+            }, function() {
+                $("#text2").hide();
+
+            }
+        );
         
-        }, function() {
-            $("#text2").hide();
-
-        }
-      );
-    
 
 
-    $( "#card1" ).hover(
-        function() {
-            $("#t1").fadeIn( 900 );
-            $("#ct1").css("color", "#ffffff");
-            $("#ct1").css("font-weight", "bold");
-        
-        }, function() {
-            $("#t1").hide();
-            $("#ct1").css("color", "black");
-            $("#ct1").css("font-weight", "normal"); 
-        }
-      );
+        $( "#card1" ).hover(
+            function() {
+                $("#t1").fadeIn( 900 );
+                $("#ct1").css("color", "#ffffff");
+                $("#ct1").css("font-weight", "bold");
+            
+            }, function() {
+                $("#t1").hide();
+                $("#ct1").css("color", "black");
+                $("#ct1").css("font-weight", "normal"); 
+            }
+        );
 
-      $( "#card2" ).hover(
-        function() {
-            $("#t2").fadeIn( 900 );
-            $("#ct2").css("color", "#ffffff");
-            $("#ct2").css("font-weight", "bold");
-        
-        }, function() {
-            $("#t2").hide();
-            $("#ct2").css("color", "black"); 
-            $("#ct2").css("font-weight", "normal"); 
-        }
-      );
+        $( "#card2" ).hover(
+            function() {
+                $("#t2").fadeIn( 900 );
+                $("#ct2").css("color", "#ffffff");
+                $("#ct2").css("font-weight", "bold");
+            
+            }, function() {
+                $("#t2").hide();
+                $("#ct2").css("color", "black"); 
+                $("#ct2").css("font-weight", "normal"); 
+            }
+        );
 
-      $( "#card3" ).hover(
-        function() {
-            $("#t3").fadeIn( 900 );
-            $("#ct3").css("color", "#ffffff");
-            $("#ct3").css("font-weight", "bold");
-        
-        }, function() {
-            $("#t3").hide();
-            $("#ct3").css("color", "black");
-            $("#ct3").css("font-weight", "normal");  
-        }
-      );
+        $( "#card3" ).hover(
+            function() {
+                $("#t3").fadeIn( 900 );
+                $("#ct3").css("color", "#ffffff");
+                $("#ct3").css("font-weight", "bold");
+            
+            }, function() {
+                $("#t3").hide();
+                $("#ct3").css("color", "black");
+                $("#ct3").css("font-weight", "normal");  
+            }
+        );
 
-      $( "#card4" ).hover(
-        function() {
-            $("#t4").fadeIn( 900 );
-            $("#ct4").css("color", "#ffffff");
-            $("#ct4").css("font-weight", "bold");
-        
-        }, function() {
-            $("#t4").hide();
-            $("#ct4").css("color", "#ffffff");
-            $("#ct4").css("font-weight", "normal");  
-        }
-      );
+        $( "#card4" ).hover(
+            function() {
+                $("#t4").fadeIn( 900 );
+                $("#ct4").css("color", "#ffffff");
+                $("#ct4").css("font-weight", "bold");
+            
+            }, function() {
+                $("#t4").hide();
+                $("#ct4").css("color", "#ffffff");
+                $("#ct4").css("font-weight", "normal");  
+            }
+        );
 
-      $( "#card5" ).hover(
-        function() {
-            $("#t5").fadeIn( 900 );
-            $("#ct5").css("color", "#ffffff");
-            $("#ct5").css("font-weight", "bold");
-        
-        }, function() {
-            $("#t5").hide();
-            $("#ct5").css("color", "#ffffff");
-            $("#ct5").css("font-weight", "normal");  
-        }
-      );
+        $( "#card5" ).hover(
+            function() {
+                $("#t5").fadeIn( 900 );
+                $("#ct5").css("color", "#ffffff");
+                $("#ct5").css("font-weight", "bold");
+            
+            }, function() {
+                $("#t5").hide();
+                $("#ct5").css("color", "#ffffff");
+                $("#ct5").css("font-weight", "normal");  
+            }
+        );
 
 
 
